@@ -56,20 +56,20 @@ FOUNDATION_EXPORT const unsigned char MMNumberKeyboardVersionString[];
  *  Specifies the style of a keyboard button.
  */
 typedef NS_ENUM(NSUInteger, MMNumberKeyboardButtonStyle) {
-    /**
-     *  A white style button, such as those for the number keys.
-     */
-    MMNumberKeyboardButtonStyleWhite,
-    
-    /**
-     *  A gray style button, such as the backspace key.
-     */
-    MMNumberKeyboardButtonStyleGray,
-    
-    /**
-     *  A done style button, for example, a button that completes some task and returns to the previous view.
-     */
-    MMNumberKeyboardButtonStyleDone
+	/**
+	 *  A white style button, such as those for the number keys.
+	 */
+	MMNumberKeyboardButtonStyleWhite,
+	
+	/**
+	 *  A gray style button, such as the backspace key.
+	 */
+	MMNumberKeyboardButtonStyleGray,
+	
+	/**
+	 *  A done style button, for example, a button that completes some task and returns to the previous view.
+	 */
+	MMNumberKeyboardButtonStyleDone
 };
 
 /**
